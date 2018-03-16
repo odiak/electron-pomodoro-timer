@@ -8,7 +8,7 @@
     "start": "electron .",
     "start-d": "electron . --debug",
     "package": "npm-run-all package:*",
-    "package:mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --out=out"
+    "package:mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --out=out --packageManager=yarn"
   },
   "devDependencies": {
     "electron": "^1.8.3",
